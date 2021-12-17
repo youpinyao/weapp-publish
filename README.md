@@ -1,6 +1,6 @@
 # weapp-publish
 
-简化发布小程序操作流程【审核通过后】
+简化小程序审核通过后的发布操作流程
 
 ```node
 weapp-publish
