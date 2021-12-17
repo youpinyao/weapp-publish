@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "publish": "node index.js"
+    "test": "node index.js"
   },
   "bin": {
     "weapp-publish": "index.js"
