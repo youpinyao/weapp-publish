@@ -5,8 +5,10 @@ import QrCode from "qrcode-reader";
 import Jimp from "jimp";
 import qrcodeTerminal from "qrcode-terminal";
 import chalk from "chalk";
+import getDirName from "./getDirName.js";
 
-const __dirname = path.resolve();
+const __dirname = getDirName(import.meta);
+
 
 export default function logQrcode(qrcode) {
   const qrcodePath = path.join(__dirname, "qrcode.png");
